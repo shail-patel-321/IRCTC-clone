@@ -9,6 +9,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('background_rail.jpg');
+  
+}
+img{
+  opacity: 0.2;
 }
 
 code {
@@ -35,4 +39,30 @@ code {
   margin-top: 170px;
   border-radius: 18px;
   padding-bottom: 20px;
+}
+.protected
+{
+  background-color: rgb(248, 248, 216)
+}
+
+.oe1
+{
+  width: 500px;
+  align-self: flex-end;
+}
+.oe2
+{
+  width: 500px;
+  margin-left: 1000px;
+}
+.oe3
+{
+  width: 500px;
+  align-self: flex-end;
+}
+.oe4
+{
+  width: 500px;
+  margin-left: 1000px;
+  align-content:flex-start;
 }

@@ -40,9 +40,9 @@ function App() {
     else{
   return (
     <div className="App">
-      <h1>Welcome</h1>
       <Protected/>
-      <button onClick={()=>signOut(auth)}>Logout</button>
+      <div background-color='aqua'>
+      <button onClick={()=>signOut(auth)} >Logout</button></div>
     </div>
   );
     }
