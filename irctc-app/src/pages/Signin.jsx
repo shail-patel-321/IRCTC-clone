@@ -9,7 +9,7 @@ export default function Signin() {
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
     const signinUser = () =>{
-        signInWithEmailAndPassword(auth,email,password).then((value)=>alert("Success")).catch((err)=>console.log(err));
+        signInWithEmailAndPassword(auth,email,password).then((value)=>alert("Success")).catch((err)=>{<h2>ERRor</h2>});
     }
     const SignUpWithGoogle = () =>{
       signInWithPopup(auth,googleProvider);
@@ -17,7 +17,7 @@ export default function Signin() {
   return (
     <div className='signin-page'>
       <h1>SignIn page</h1>
-        <br></br>
+        
         <label>Email</label>
         <input onChange={(e)=>setEmail(e.target.value)} value={email} type="email" required placeholder='Enter your email here'/>
         <br></br>

@@ -12,7 +12,6 @@ export default function Signup() {
   return (
     <div className="signup-page">
         <h1>SignUp page</h1>
-        <br></br>
         <label>Email</label>
         <input onChange={(e)=>setEmail(e.target.value)} value={email} type="email" required placeholder='Enter your email here'/>
         <br></br>
