@@ -5,6 +5,7 @@ import './App.css';
 import Signup from './pages/Signup';
 import Signin from './pages/Signin';
 import Protected from './components/Protected';
+import Directions from './components/Directions';
 
 
 const auth =getAuth(app);
@@ -40,7 +41,7 @@ function App() {
     else{
   return (
     <div className="App">
-      <Protected/>
+      <Directions/>
       <div background-color='aqua'>
       <button onClick={()=>signOut(auth)} >Logout</button></div>
     </div>

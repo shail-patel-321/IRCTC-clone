@@ -1,8 +1,18 @@
 import React from 'react'
-
+import Profile from './Profile'
+import {BrowserRouter,Link,Routes, Route, useNavigate} from 'react-router-dom';
 export default function Protected() {
+        const navigate = useNavigate();
+        // function ee()
+        // {
+        //         navigate(Profile);
+                
+        //         // alert("Clicked");
+        // }
   return (
+       
     <div className='protected'>
+        <button onClick={()=>navigate('/profile')} className='bb'>Profile</button>
         <h2>Welcome</h2>
         <p>IRCTC has revolutionized life of the common man travelling with the Indian Railways. IRCTC Online Ticket booking system is a boon to the common man, empowering him through technology. Launched in August, 2002, the Company had booked a mere 27 tickets on the first day of its commencement of Internet ticketing service in the country. From the first day 27 i-ticket bookings, the Company has reached to a record of 15.88 lakh e-tickets booked on 21st March 2022. Now after more than 20 years of a sparkling journey, it has emerged as one of the largest e-commerce website in the country and Asia Pacific. The e-Ticketing System was replaced with Next Generation E-Ticketing (NGeT) System from 28- Apr-2014 and the capacity of per minute ticket booking was increased progressively.</p>
         <br></br><br></br>
