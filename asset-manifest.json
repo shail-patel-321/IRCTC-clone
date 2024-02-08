@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IRCTC-clone/static/css/main.bfab71df.css",
+    "main.js": "/IRCTC-clone/static/js/main.3df7342c.js",
+    "static/js/787.b6209265.chunk.js": "/IRCTC-clone/static/js/787.b6209265.chunk.js",
+    "static/media/background_rail.jpg": "/IRCTC-clone/static/media/background_rail.434ce489a8bb051e2764.jpg",
+    "index.html": "/IRCTC-clone/index.html",
+    "main.bfab71df.css.map": "/IRCTC-clone/static/css/main.bfab71df.css.map",
+    "main.3df7342c.js.map": "/IRCTC-clone/static/js/main.3df7342c.js.map",
+    "787.b6209265.chunk.js.map": "/IRCTC-clone/static/js/787.b6209265.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfab71df.css",
+    "static/js/main.3df7342c.js"
+  ]
+}
